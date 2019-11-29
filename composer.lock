@@ -4,62 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7020d82c0b6c17070b3af353cb3fbad4",
-    "packages": [
-        {
-            "name": "pier-infor/nymfonya-config",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pierre-fromager/nymfonya-config.git",
-                "reference": "aad0b40337da20c8a64e67fe6cccf499d39676a2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pierre-fromager/nymfonya-config/zipball/aad0b40337da20c8a64e67fe6cccf499d39676a2",
-                "reference": "aad0b40337da20c8a64e67fe6cccf499d39676a2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.13",
-                "phploc/phploc": "^4.0",
-                "phpmd/phpmd": "@stable",
-                "phpunit/phpunit": "^6.5",
-                "squizlabs/php_codesniffer": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Nymfonya\\Component\\": "src/"
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Pierre Fromager",
-                    "email": "info@pier-infor.fr",
-                    "homepage": "https://github.com/pierre-fromager"
-                }
-            ],
-            "description": "Nymfonya Config Component",
-            "homepage": "https://github.com/pierre-fromager/nymfonya-config",
-            "keywords": [
-                "Nymfonya",
-                "components",
-                "config"
-            ],
-            "time": "2019-11-21T12:38:13+00:00"
-        }
-    ],
+    "content-hash": "234892bea0d69bddc1ea203b75752ee1",
+    "packages": [],
     "packages-dev": [
         {
             "name": "composer/semver",
@@ -3129,7 +3075,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pier-infor/nymfonya-config": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
