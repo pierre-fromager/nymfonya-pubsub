@@ -19,7 +19,7 @@ env:
 
 matrix:
   include:
-    - php: 7.2
+    - php: 7.3
 
 before_install:
   - phpenv config-rm xdebug.ini
@@ -32,4 +32,4 @@ script:
 
 after_success:
   - wget https://scrutinizer-ci.com/ocular.phar
-  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+  - php ocular.phar code-coverage:upload --format=php-clover build/logs/coverage.clover

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Nymfonya\Component\Pubsub;
 
 class EventAbstract implements EventInterface
